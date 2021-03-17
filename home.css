@@ -20,7 +20,7 @@ body {
   border-radius: 5px;
 }
 .button:hover {
-  background-color: #03a9f5;
+  background-color: #96b5c4;
 }
 
 .MenuLinksBTN {
@@ -136,6 +136,9 @@ a {
 .header-right {
   float: right;
 }
+.header-right a {
+  font-size: 12px;
+}
 .header_logo {
   height: 100%;
   float: left;
@@ -145,8 +148,12 @@ a {
   height: 50px;
 }
 .header-center {
-  padding-left: 20%;
+  margin: auto;
+  padding-left: 12%;
   float: center;
+}
+.header-center a {
+  font-size: 12px;
 }
 
 .dropdown {
