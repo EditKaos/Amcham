@@ -384,6 +384,9 @@ img {
   /*  height: 100vh; */
   margin: 0 auto;
 }
+.container2 .recurso2 img {
+  width: 100%;
+}
 
 .container2 .descripcion {
   height: 500px;
@@ -636,4 +639,7 @@ b {
   .header-right {
     float: none;
   }
+}
+footer {
+  width: 100%;
 }
