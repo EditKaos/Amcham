@@ -19,9 +19,9 @@ body {
   */
   border-radius: 5px;
 }
-.button:hover {
-  background-color: #96b5c4;
-}
+/* .button:hover {
+  background-color: black;
+} */
 
 .MenuLinksBTN {
   display: none;
@@ -307,7 +307,6 @@ img {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
- 
   transform: scale(1.5);
 }
 
@@ -610,15 +609,20 @@ b {
   padding-top: 2%;
 }
 .card:hover {
+  color: white;
   background-color: #03a9f5;
   transform: scale(1.1);
 }
+.card:hover .button {
+  color: #03a9f5;
+  background-color: white;
+}
 .card .cardContainer {
+  text-align: center;
   padding: 20px;
 }
-.card .cardContainer button {
-  margin-left: 25%;
-  padding-right: 30px;
+.card .cardContainer .button {
+  padding: 10px 50px;
 }
 .card img {
   border-radius: 100%;
