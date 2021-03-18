@@ -256,8 +256,10 @@ img {
   background-color: white;
 }
 .SliderTop .Mitad2 .item:hover {
-  
   background-color: #03a9f5;
+}
+.SliderTop .Mitad2 .item .contedorCard .desCard:hover {
+  color: white;
 }
 .SliderTop .Mitad2 .item .imageCardMin {
   float: left;
@@ -272,8 +274,10 @@ img {
   height: 100%;
 }
 .SliderTop .Mitad2 .item .contedorCard .desCard {
-  padding: 1px;
-  color: black;
+  width: 100%;
+  height: 100%;
+  padding-top: 1px;
+  color: #03a9f5;
 }
 
 .slideshow-container {
