@@ -7,52 +7,57 @@
     <link rel="stylesheet" href="home.css" />
   </head>
   <body>
-    <div class="header">
-      <div class="header_logo">
-        <a href="#default" class="logo"
-          ><img src="./img/Logo_100_curvas.png" alt=""
-        /></a>
-      </div>
-
-      <div class="header-center">
-        <!--   <a id="Uno" href=""></a>
-           -->
-        <a href="">INICIO </a>
-        <a href=""> QUIÉNES SOMOS</a>
-        <a href=""> MEMBRESÍAS</a>
-        <a href="">COMITÉS</a>
-        <a href=""> TRADE & INVESTMENT</a>
-        <a href=""> EVENTOS</a>
-        <a href="">COMUNICACIÓN</a>
-        <a href="">CONTACTO</a>
-      </div>
-
-      <div class="header-right">
-        <div class="dropdown">
-          <button class="dropbtn">
-            <img
-              src="./img/user---.png"
-              alt=""
-              style="width: 30px; border-radius: 20px"
-            />
-            Enteratek
-          </button>
-          <div class="dropdown-content">
-            <a id="Uno" href="https://www.amcham.org.mx/es/membership"
-              >Mis datos</a
-            >
-            <a href="">Mis eventos</a>
-            <a href="">Mis ejecutivos</a>
-            <a href=""> Mi membresía</a>
-            <a href="">Mis servicios</a>
-            <a href="#">Facturación</a>
-            <a href="#">Cerrar sesión</a>
-          </div>
+    <div class="hero-banner">
+      <nav>
+        <div class="burger">
+          <img src="./img/iconfinder_menu-alt_134216.png" width="40px" alt="" />
         </div>
-
-        <a href="#">English</a><a href="#">Español</a>
-      </div>
+        <div class="logo-container">
+          <img class="logo" src="./img/Logo_100_curvas.png" alt="" />
+        </div>
+        <ul class="nav-links">
+          <div class="close-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="36"
+              height="36"
+              viewBox="0 0 18 18"
+            >
+              <path
+                d="M14.53 4.53l-1.06-1.06L9 7.94 4.53 3.47 3.47 4.53 7.94 9l-4.47 4.47 1.06 1.06L9 10.06l4.47 4.47 1.06-1.06L10.06 9z"
+              />
+            </svg>
+          </div>
+          <li>
+            <a href="#">INICIO</a>
+          </li>
+          <li>
+            <a href="#">QUIÉNES SOMOS </a>
+          </li>
+          <li>
+            <a href="#">MEMBRESÍAS</a>
+          </li>
+          <li>
+            <a href="#"> COMITÉS</a>
+          </li>
+          <li>
+            <a href="#">TRADE & INVESTMENT</a>
+          </li>
+          <li>
+            <a href="#"> EVENTOS</a>
+          </li>
+          <li>
+            <a href="#">COMUNICACIÓN</a>
+          </li>
+          <li>
+            <a href="#">CONTACTO</a>
+          </li>
+        </ul>
+        <div class="user-section">Enteratek Español | Ingles</div>
+      </nav>
     </div>
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 
     <!--  slider
  -->
@@ -80,13 +85,10 @@
         >
           <div class="item">
             <div class="contedorCard">
-              <div class="imageCardMin">
-                <img src="./img/website (5).png" alt="" />
-              </div>
-              <div class="desCard">
-                <h4>AmCham Virtual</h4>
-                Calendario de webinars
-              </div>
+              <img src="./img/website (5).png" alt="" />
+
+              <h4>AmCham Virtual</h4>
+              <p>Calendario de webinars</p>
             </div>
           </div>
         </a>
@@ -95,29 +97,27 @@
         >
           <div class="item">
             <div class="contedorCard">
-              <div class="imageCardMin">
-                <img src="./img/website (5).png" alt="" />
-              </div>
-              <div class="desCard">
-                <h4>Publicaciones Teste</h4>
-                Estrategia de Ciberseguridad en México
-              </div>
+              <img src="./img/website (5).png" alt="" />
+
+              <h4>Publicaciones Teste</h4>
+              <p>Estrategia de Ciberseguridad en México</p>
             </div>
           </div>
         </a>
         <a href="https://www.amcham.org.mx/es/toolkit-pymes">
           <div class="item">
             <div class="contedorCard">
-              <div class="imageCardMin">
-                <img src="./img/website (5).png" alt="" />
-              </div>
-              <div class="desCard">
-                <h4>Toolkit PyMEs</h4>
-                Impulso y transformación para los pequeños negocios.
-              </div>
+              <img src="./img/website (5).png" alt="" />
+
+              <h4>Toolkit PyMEs</h4>
+              <p>Impulso y transformación para los pequeños negocios.</p>
             </div>
           </div>
         </a>
+        <div class="actions">
+          <h1>Noticias</h1>
+          <a href="" class="button">---></a>
+        </div>
       </div>
     </div>
 
@@ -306,11 +306,9 @@
         <img src="./img/website (5).png" alt="" />
       </div>
     </div> -->
-    <footer>
-      <div>
-        <img src="./img/footer.png" alt="" />
-      </div>
-    </footer>
+    <div class="footer">
+      <img src="./img/footer.png" alt="" />
+    </div>
     <script type="text/javascript" src="home.js"></script>
   </body>
 </html>
