@@ -321,7 +321,8 @@ img {
   height: 100px;
 }
 .SliderTop .actions .button {
-  text-align: right;
+  margin-left: 88%;
+  
 }
 
 .SliderTop .Mitad2 .TitleSec {
@@ -362,8 +363,10 @@ img {
   /*  padding-top: 1px; */
   color: #03a9f5;
 }
-.SliderTop .Mitad2 .item .contedorCard h4 {
-  padding-top: 10px;
+.SliderTop .Mitad2 .item .contedorCard .descrip  {
+  padding-left: 130px;
+ padding-top: 2px;
+
 }
 
 .slideshow-container {
