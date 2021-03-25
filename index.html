@@ -2,8 +2,7 @@
 <html>
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link rel="stylesheet" href="home.css" />
   </head>
   <body>
@@ -53,7 +52,20 @@
             <a href="#">CONTACTO</a>
           </li>
         </ul>
-        <div class="user-section">Enteratek Español | Ingles</div>
+        <div class="user-section">
+          <ul class="nav-links">
+            <li>
+              <a href="#">Enteratek</a>
+            </li>
+            <li>
+              <a href="#">Español</a>
+            </li>
+            |
+            <li>
+              <a href="#">Ingles</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </div>
 
@@ -61,12 +73,7 @@
  -->
     <div class="SliderTop">
       <div class="Mitad1">
-        <video
-          width="400"
-          controls
-          poster="./img/Logo_100_curvas.png"
-          class="Video"
-        >
+        <video controls poster="./img/Logo_100_curvas.png" class="Video">
           <source
             src="https://www.amcham.org.mx/files/Envios/Comites21/Flyer/Envio1/2021_Fin_2.mp4"
             type="video/mp4"
@@ -76,7 +83,7 @@
         </video>
       </div>
       <div class="Mitad2">
-        <div class="TitleSec"><h3>Ultimas Noticias</h3></div>
+        <h3 class="title">Ultimas Noticias</h3>
 
         <div class="cardssscontainer">
           <div class="carousel">
@@ -97,7 +104,7 @@
                       <div class="contedorCard">
                         <img src="./img/website (5).png" alt="" />
                         <div class="descrip">
-                          <h4>AmCham Virtual</h4>
+                          <h3>AmCham Virtual</h3>
                           <p>Calendario de webinars</p>
                         </div>
                       </div>
@@ -145,7 +152,33 @@
     </div>
 
     <div class="container2">
-      <div class="descripcion">
+      <div class="imageRes">
+        <img src="./img/recurso.png" alt="Snow" style="width: 100%" />
+
+        <div class="top-left">
+          <h2>AmCham</h2>
+          <p>
+            Desde su fundación, AmCham promueve el libre comercio , la
+            transparencia y las mejores prácticas dentro y fuera del sector
+            empresarial, ayudando a sus miembros a mejorar y hacer crecer sus
+            negocios , al tiempo que mantiene una voz proactiva que ayuda a
+            facilitar las relaciones comerciales entre México y los Estados
+            Unidos.
+          </p>
+          <br />
+          <a
+            class="button"
+            href="https://www.amcham.org.mx/es/about-us/executive-summary"
+          >
+            Ver más
+          </a>
+        </div>
+        <div class="top-right">
+          <img src="./img/Logo_100_curvas.png" alt="" />
+        </div>
+      </div>
+
+      <!--       <div class="descripcion">
         <div class="sec1">
           <h2>AmCham</h2>
           <p>
@@ -167,7 +200,7 @@
         <div class="sec2">
           <img src="./img/Logo_100_curvas.png" alt="" />
         </div>
-      </div>
+      </div> -->
       <h3>Conoce Amcham</h3>
 
       <div class="slideshow-container">
@@ -290,7 +323,7 @@
         <img src="./img/recurso2.png" alt="" />
       </div>
 
-      <div class="descripcion">
+   <!--    <div class="descripcion">
         <div class="sec1">
           <video
             width="400"
@@ -307,9 +340,46 @@
           </video>
         </div>
         <div class="sec2">
-          <h1>Dashboard de Comercio</h1>
-          Descripción: Consulta la información más actualizada del comercio
-          bilateral México-Estados Unidos <br /><br />
+          <h2>Dashboard de Comercio</h2>
+          <p>
+            Descripción: Consulta la información más actualizada del comercio
+            bilateral México-Estados Unidos
+          </p>
+          <br /><br />
+          <a
+            class="button"
+            href=" https://amchammexico.infogram.com/us-mexico-trade-dashboard_esp-1h8n6mme5xnm6xo"
+          >
+            Ver más
+          </a>
+        </div>
+      </div> -->
+
+      <div class="imageRes">
+        <img src="./img/recurso.png" alt="Snow" style="width: 100%" />
+
+        <div class="top-left">
+          <video
+            width="400"
+            controls
+            poster="./img/Logo_100_curvas.png"
+            class="Video"
+          >
+            <source
+              src="https://www.amcham.org.mx/files/Envios/Comites21/Flyer/Envio1/2021_Fin_2.mp4"
+              type="video/mp4"
+            />
+            <source src="mov_bbb.ogg" type="video/ogg" />
+            Your browser does not support HTML5 video.
+          </video>
+        </div>
+        <div class="top-right">
+          <h2>Dashboard de Comercio</h2>
+          <p>
+            Descripción: Consulta la información más actualizada del comercio
+            bilateral México-Estados Unidos
+          </p>
+          <br /><br />
           <a
             class="button"
             href=" https://amchammexico.infogram.com/us-mexico-trade-dashboard_esp-1h8n6mme5xnm6xo"
@@ -332,6 +402,7 @@
         <img src="./img/website (5).png" alt="" />
       </div>
     </div> -->
+
     <div class="footer">
       <img src="./img/footer.png" alt="" />
     </div>
