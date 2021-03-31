@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+} */
+
+a,
+button {
+  color: inherit;
+}
+
+.no-transition {
+  transition: none !important;
+}
+
+body {
+  color: var(--white);
+  min-height: 100vh;
+}
+
+.button {
+  text-align: center;
+  border: none;
+  transition: transform 0.2s;
+  /* Animation */
+  color: white;
+  background-color: var(--Blue);
+  padding: 10px;
+  /*  width: 100px;
+  */
+  border-radius: 5px;
+}
+
+.button:hover {
+  color: var(--Blue);
+  background-color: white;
+}
