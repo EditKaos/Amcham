@@ -32,7 +32,6 @@ pruebas image responsive
 */
 
 .imageRes {
- 
   font-size: 1.2vw;
   position: relative;
   text-align: center;
@@ -40,10 +39,10 @@ pruebas image responsive
 }
 
 .top-left {
-  line-height: 1em;
+  /*  line-height: 1em; */
   padding: 1em;
   margin: 1em;
- 
+
   width: 50%;
   text-align: left;
   position: absolute;
@@ -51,10 +50,9 @@ pruebas image responsive
 }
 
 .top-right {
-  
   width: 50%;
   position: absolute;
-  
+
   top: 14%;
   right: 1em;
 }
@@ -178,7 +176,8 @@ header video slider
 /* Pagination */
 
 .carousel-pagination {
-  list-style: none;
+  display: none;
+ /*  list-style: none;
   position: absolute;
   bottom: 90px;
   left: 0;
@@ -187,7 +186,7 @@ header video slider
   padding: 0;
   margin: 0 auto;
   text-align: center;
-  z-index: 10;
+  z-index: 10; */
 }
 
 .carousel-bullet {
@@ -389,14 +388,13 @@ ion-icon {
     font-size: 12px;
   }
  */
- .SliderTop{
-   height: 40vh !important;
- }
+  .SliderTop {
+    height: 40vh !important;
+  }
 
- .SliderTop .Mitad2 .item .contedorCard {
-  height: 8vh !important;
- 
-}
+  .SliderTop .Mitad2 .item .contedorCard {
+    height: 8vh !important;
+  }
 
   .descripcion {
     height: 300px !important;
@@ -513,19 +511,20 @@ img {
 
 /* Slideshow container */
 .SliderTop {
-  padding-top: 10px;
+  max-width: 90vw;
+  height: auto;
+  position: relative;
+  margin: 20px auto;  
+ 
+  /* padding-top: 10px;
 
   width: 95%;
 
   margin: 0 auto;
 
-  height: 65vh;
+  height: 65vh; */
 }
 .SliderTop .Mitad1 {
- 
-  
- 
- 
   float: left;
   width: 50%;
 }
@@ -557,6 +556,8 @@ img {
 }
 
 .SliderTop .Mitad2 .item {
+  height: 10vh;
+
   border-radius: 10px;
   background-color: white;
 }
@@ -578,11 +579,11 @@ img {
   border-radius: 10px;
 }
 .SliderTop .Mitad2 .item .contedorCard {
-  height: 14vh;
+   height: 100%; 
   color: #03a9f5;
 }
 .descrip {
-  font-size: 1.3vw;
+  font-size: 1.2vw;
 }
 
 .slideshow-container {

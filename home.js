@@ -1,4 +1,4 @@
-var slideIndex = 1;
+/* var slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
@@ -55,7 +55,7 @@ const navSlide = ()=> {
   })
 }
 
-navSlide();
+navSlide(); */
 
 
 var carousel = document.querySelector('.carousel');

@@ -1,76 +1,238 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./globalStyles.css" />
+    <link rel="stylesheet" href="./headerStyles.css" />
+    <link rel="stylesheet" href="./sectionVideo.css" />
+    <link rel="stylesheet" href="./description.css" />
+    <link rel="stylesheet" href="./sliderCard.css" />
+    <link rel="stylesheet" href="./footer.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <link rel="stylesheet" href="home.css" />
+
+    <title>Amcham</title>
   </head>
+
   <body>
-    <div class="hero-banner">
+    <header class="page-header">
       <nav>
-        <div class="burger">
-          <img src="./img/iconfinder_menu-alt_134216.png" width="40px" alt="" />
-        </div>
-        <div class="logo-container">
-          <img class="logo" src="./img/Logo_100_curvas.png" alt="" />
-        </div>
-        <ul class="nav-links">
-          <div class="close-icon">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="36"
-              height="36"
-              viewBox="0 0 18 18"
-            >
-              <path
-                d="M14.53 4.53l-1.06-1.06L9 7.94 4.53 3.47 3.47 4.53 7.94 9l-4.47 4.47 1.06 1.06L9 10.06l4.47 4.47 1.06-1.06L10.06 9z"
+        <button class="open-mobile-menu fa-lg">Menu</button>
+        <a href="">
+          <img
+            class="logo horizontal-logo"
+            src="./img/Logo_100_curvas.png"
+            alt="forecastr logo"
+          />
+          <img
+            class="logo vertical-logo"
+            src="./img/Logo_100_curvas.png"
+            alt="forecastr logo"
+          />
+        </a>
+        <div class="top-menu-wrapper">
+          <div class="panel panel1"></div>
+          <div class="panel panel2"></div>
+          <ul class="top-menu">
+            <li class="mob-block">
+              <img
+                class="logo"
+                src="./img/Logo_100_curvas.png"
+                alt="forecastr horizontal mobile logo"
               />
-            </svg>
-          </div>
-          <li>
-            <a href="#">INICIO</a>
-          </li>
-          <li>
-            <a href="#">QUIÉNES SOMOS </a>
-          </li>
-          <li>
-            <a href="#">MEMBRESÍAS</a>
-          </li>
-          <li>
-            <a href="#"> COMITÉS</a>
-          </li>
-          <li>
-            <a href="#">TRADE & INVESTMENT</a>
-          </li>
-          <li>
-            <a href="#"> EVENTOS</a>
-          </li>
-          <li>
-            <a href="#">COMUNICACIÓN</a>
-          </li>
-          <li>
-            <a href="#">CONTACTO</a>
-          </li>
-        </ul>
-        <div class="user-section">
-          <ul class="nav-links">
+              <button
+                aria-label="Close Mobile Menu"
+                class="close-mobile-menu fa-lg"
+              >
+                Close
+              </button>
+            </li>
+
             <li>
-              <a href="#">Enteratek</a>
+              <a href="">INICIO</a>
+            </li>
+
+            <li class="has-dropdown">
+              <a href="">
+                QUIÉNES SOMOS
+                <i class="fas fa-chevron-down"></i>
+              </a>
+              <ul class="sub-menu">
+                <li>
+                  <a href=""> CONSEJO DIRECTIVO</a>
+                </li>
+                <li>
+                  <a href="">MISIÓN Y VISIÓN</a>
+                </li>
+                <li>
+                  <a href="">RESUMEN EJECUTIVO</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="has-dropdown">
+              <a href="">
+                MEMBRESÍAS
+                <i class="fas fa-chevron-down"></i>
+              </a>
+              <ul class="sub-menu">
+                <li>
+                  <a href="">SERVICIOS</a>
+                </li>
+                <li>
+                  <a href="">AFÍLIATE</a>
+                </li>
+                <li>
+                  <a href="">DIRECTORIO DE SOCIOS</a>
+                </li>
+              </ul>
+            </li>
+            <li class="has-dropdown">
+              <a href="">
+                COMITÉS
+                <i class="fas fa-chevron-down"></i>
+              </a>
+
+              <ul class="sub-menu">
+                <li>
+                  <a href=""> CIUDAD DE MÉXICO</a>
+                </li>
+                <li>
+                  <a href="">GUADALAJARA</a>
+                </li>
+                <li>
+                  <a href="">MONTERREY</a>
+                </li>
+              </ul>
             </li>
             <li>
-              <a href="#">Español</a>
+              <a href=""> TRADE & INVESTMENT </a>
             </li>
-            |
+
+            <li class="has-dropdown">
+              <a href="">
+                EVENTOS
+                <i class="fas fa-chevron-down"></i>
+              </a>
+
+              <ul class="sub-menu">
+                <li>
+                  <a href=""> AMCHAM</a>
+                </li>
+                <li>
+                  <a href="">SOCIOS Y ALIADOS</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="has-dropdown">
+              <a href="">
+                COMUNICACIÓN
+                <i class="fas fa-chevron-down">&#10094; </i>
+              </a>
+
+              <ul class="sub-menu">
+                <li>
+                  <a href=""> PUBLICACIONES</a>
+                </li>
+                <li>
+                  <a href="">WEBINARS</a>
+                </li>
+                <li>
+                  <a href="">PRENSA</a>
+                </li>
+                <li>
+                  <a href="">INFOGRAFIAS</a>
+                </li>
+                <li>
+                  <a href="">TOOLKIT PYMES</a>
+                </li>
+              </ul>
+            </li>
+            <li class="has-dropdown">
+              <a href="">
+               <img src="./img/user---.png" style="width:15px;" alt=""> User
+              </a>
+
+              <ul class="sub-menu">
+                <li>
+                  <a href="">Mis datos</a>
+                </li>
+                <li><a href="">Mis eventos</a></li>
+                <li><a href="">Mis ejecutivos</a></li>
+                <li><a href="">Mi membresía</a></li>
+                <li><a href=""> Mis servicios</a></li>
+                <li><a href="">Facturación</a></li>
+                <li><a href="">Cerrar Sesion</a></li>
+              </ul>
+            </li>
+
             <li>
-              <a href="#">Ingles</a>
+              <ul class="socials">
+                <li>
+                  <a href="">
+                    face
+                    <span class="fa-stack fa-2x">
+                      <i class="fas fa-circle fa-stack-2x"></i>
+                      <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  twiiter
+                  <a href="">
+                    <span class="fa-stack fa-2x">
+                      <i class="fas fa-circle fa-stack-2x"></i>
+                      <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  youtube
+                  <a href="">
+                    <span class="fa-stack fa-2x">
+                      <i class="fas fa-circle fa-stack-2x"></i>
+                      <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  aa
+                  <a href="">
+                    <span class="fa-stack fa-2x">
+                      <i class="fas fa-circle fa-stack-2x"></i>
+                      <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </a>
+                </li>
+              </ul>
             </li>
           </ul>
+
+        <button class="search"></button>
+          <form class="search-form">
+            <div>
+              <ul>
+                <li>Mis datos</li>
+                <li>Mis eventos</li>
+                <li>Mis ejecutivos</li>
+                <li>Mi membresía</li>
+                <li>Mis servicios</li>
+                <li>Facturación</li>
+                <li>Cerrar Sesion</li>
+              </ul>
+            </div>
+
+           <input type="search" placeholder="Search Resources" />
+              <button aria-label="Search Resources" type="submit">
+                <i class="fas fa-search fa-2x" aria-hidden="true"></i>
+              </button> 
+          </form> 
         </div>
       </nav>
-    </div>
+    </header>
 
-    <!--  slider
- -->
     <div class="SliderTop">
       <div class="Mitad1">
         <video controls poster="./img/Logo_100_curvas.png" class="Video">
@@ -151,6 +313,181 @@
       </div>
     </div>
 
+    <div class="slider">
+      <div class="slide-track">
+        <div class="slide">
+          <img
+            src="https://amcham.org.mx/sites/default/files//theme/backgrounds/amazon_01.jpg"
+            alt=""
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://amcham.org.mx/sites/default/files//theme/backgrounds/amex_02.jpg"
+            alt=""
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://amcham.org.mx/sites/default/files//theme/backgrounds/ATT_03.jpg"
+            alt=""
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://amcham.org.mx/sites/default/files//theme/backgrounds/axalta_04.jpg"
+            alt=""
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://amcham.org.mx/sites/default/files//theme/backgrounds/Delta_05.jpg"
+            alt=""
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://amcham.org.mx/sites/default/files//theme/backgrounds/edenred_06.jpg"
+            alt=""
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://amcham.org.mx/sites/default/files//theme/backgrounds/FEDEX_07.jpg"
+            alt=""
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://amcham.org.mx/sites/default/files//theme/backgrounds/gm.jpg"
+            alt=""
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://amcham.org.mx/sites/default/files//theme/backgrounds/Manpower_09.jpg"
+            alt=""
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://amcham.org.mx/sites/default/files//theme/backgrounds/HP_010.jpg"
+            alt=""
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://amcham.org.mx/sites/default/files//theme/backgrounds/Kansas_011.jpg"
+            alt=""
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://amcham.org.mx/sites/default/files//theme/backgrounds/kpmg_012.jpg"
+            alt=""
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://amcham.org.mx/sites/default/files//theme/backgrounds/Newmont_013.jpg"
+            alt=""
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://amcham.org.mx/sites/default/files//theme/backgrounds/pwc_14.jpg"
+            alt=""
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="https://amcham.org.mx/sites/default/files//theme/backgrounds/pwc_14.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <!--  <div class="SliderTop">
+      <div class="Mitad1">
+        <video controls poster="./img/Logo_100_curvas.png" class="Video">
+          <source
+            src="https://www.amcham.org.mx/files/Envios/Comites21/Flyer/Envio1/2021_Fin_2.mp4"
+            type="video/mp4"
+          />
+          <source src="mov_bbb.ogg" type="video/ogg" />
+          Your browser does not support HTML5 video.
+        </video>
+      </div>
+      <div class="Mitad2">
+        <h3 class="title">Ultimas Noticias</h3>
+
+        <div class="cardssscontainer">
+          <div class="carousel">
+            <div class="carousel-prev">&#10094;</div>
+            <div class="carousel-next">&#10095;</div>
+            <ul class="carousel-pagination">
+              <li class="carousel-bullet"></li>
+              <li class="carousel-bullet"></li>
+              <li class="carousel-bullet"></li>
+            </ul>
+            <ul class="carousel-container">
+              <li class="carousel-item">
+                <div class="item-1">
+                  <a
+                    href="https://amchammexico.infogram.com/webinars-amcham-2-1h7v4pwdlg8k86k"
+                  >
+                    <div class="item">
+                      <div class="contedorCard">
+                        <img src="./img/website (5).png" alt="" />
+                        <div class="descrip">
+                          <h4>AmCham Virtual</h4>
+                          <p>Calendario de webinars</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+
+                  <a
+                    href="https://www.amcham.org.mx/sites/default/files/publications/VF_Estrategia%20de%20Ciberseguridad%20en%20Me%cc%81xico%20(1).pdf"
+                  >
+                    <div class="item">
+                      <div class="contedorCard">
+                        <img src="./img/website (5).png" alt="" />
+                        <div class="descrip">
+                          <h4>Publicaciones Teste</h4>
+                          <p>Estrategia de Ciberseguridad en México</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="https://www.amcham.org.mx/es/toolkit-pymes">
+                    <div class="item">
+                      <div class="contedorCard">
+                        <img src="./img/website (5).png" alt="" />
+                        <div class="descrip">
+                          <h4>Toolkit PyMEs</h4>
+                          <p>
+                            Impulso y transformación para los pequeños negocios.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <li class="carousel-item">
+                <div class="item-2"></div>
+              </li>
+              <li class="carousel-item">
+                <div class="item-3"></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
     <div class="container2">
       <div class="imageRes">
         <img src="./img/recurso.png" alt="Snow" style="width: 100%" />
@@ -177,191 +514,64 @@
           <img src="./img/Logo_100_curvas.png" alt="" />
         </div>
       </div>
+    </div>
 
-      <!--       <div class="descripcion">
-        <div class="sec1">
-          <h2>AmCham</h2>
-          <p>
-            Desde su fundación, AmCham promueve el libre comercio , la
-            transparencia y las mejores prácticas dentro y fuera del sector
-            empresarial, ayudando a sus miembros a mejorar y hacer crecer sus
-            negocios , al tiempo que mantiene una voz proactiva que ayuda a
-            facilitar las relaciones comerciales entre México y los Estados
-            Unidos.
-          </p>
-          <br />
-          <a
-            class="button"
-            href="https://www.amcham.org.mx/es/about-us/executive-summary"
-          >
-            Ver más
-          </a>
-        </div>
-        <div class="sec2">
-          <img src="./img/Logo_100_curvas.png" alt="" />
-        </div>
-      </div> -->
-      <h3>Conoce Amcham</h3>
-
-      <div class="slideshow-container">
-        <div class="mySlides fade">
-          <!--   <div class="numbertext">1 / 3</div>
-          <img src="./img/recurso.png" style="width: 100%" />
-          <div class="text">Caption Text</div> -->
-
-          <div class="MenuCards">
-            <div class="Cards">
-              <div class="card">
-                <div class="cardContainer">
-                  <img src="./img/website (5).png" />
-                  <h4>TMEC</h4>
-                  <h5>Informacón y recursos TMEC</h5>
-
-                  <a class="button">Ver más</a>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="cardContainer">
-                  <img src="./img/website (5).png" />
-                  <h4>Biblioteca Digital</h4>
-                  <h5>Información</h5>
-                  <a class="button">Ver más</a>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="cardContainer">
-                  <img src="./img/website (5).png" />
-                  <h4>Membresía Economex</h4>
-                  <h5>Información</h5>
-                  <a class="button">Ver más</a>
-                </div>
-              </div>
+    <h1 class="TitleCards">Conoce Amcham</h1>
+    <div class="container">
+      <div id="slide-left-container">
+        <div class="slide-left"></div>
+      </div>
+      <div id="cards-container">
+        <div class="cards">
+          <div class="card">
+            <img src="./img/website (5).png" />
+            <div class="cardContainer">
+              <h4>TMEC</h4>
+              <h5>Informacón y recursos TMEC</h5>
             </div>
+            <a class="button">Ver más</a>
           </div>
-        </div>
-
-        <div class="mySlides fade">
-          <div class="MenuCards">
-            <div class="Cards">
-              <div class="card">
-                <div class="cardContainer">
-                  <img src="./img/website (5).png" />
-                  <h4>Membresía Economex</h4>
-                  <h5>Descripcion</h5>
-
-                  <a class="button">Ver más</a>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="cardContainer">
-                  <img src="./img/website (5).png" />
-                  <h4>Title</h4>
-                  <h5>Descripcion</h5>
-                  <a class="button">Ver más</a>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="cardContainer">
-                  <img src="./img/website (5).png" />
-                  <h4>Title</h4>
-                  <h5>Descripcion</h5>
-                  <a class="button">Ver más</a>
-                </div>
-              </div>
+          <div class="card">
+            <img src="./img/website (5).png" />
+            <div class="cardContainer">
+              <h4>TMEC</h4>
+              <h5>Informacón y recursos TMEC</h5>
             </div>
+            <a class="button">Ver más</a>
           </div>
-        </div>
-
-        <div class="mySlides fade">
-          <div class="MenuCards">
-            <div class="Cards">
-              <div class="card">
-                <div class="cardContainer">
-                  <img src="./img/website (5).png" />
-                  <h4>Title</h4>
-                  <h5>Descripcion</h5>
-
-                  <a class="button">Ver más</a>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="cardContainer">
-                  <img src="./img/website (5).png" />
-                  <h4>Title</h4>
-                  <h5>Descripcion</h5>
-                  <a class="button">Ver más</a>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="cardContainer">
-                  <img src="./img/website (5).png" />
-                  <h4>Title</h4>
-                  <h5>Descripcion</h5>
-                  <a class="button">Ver más</a>
-                </div>
-              </div>
+          <div class="card">
+            <img src="./img/website (5).png" />
+            <div class="cardContainer">
+              <h4>TMEC</h4>
+              <h5>Informacón y recursos TMEC</h5>
             </div>
+            <a class="button">Ver más</a>
           </div>
-        </div>
-
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        <div style="text-align: center">
-          <span class="dot" onclick="currentSlide(1)"></span>
-          <span class="dot" onclick="currentSlide(2)"></span>
-          <span class="dot" onclick="currentSlide(3)"></span>
+          <div class="card">
+            <img src="./img/website (5).png" />
+            <div class="cardContainer">
+              <h4>TMEC</h4>
+              <h5>Informacón y recursos TMEC</h5>
+            </div>
+            <a class="button">Ver más</a>
+          </div>
         </div>
       </div>
 
-      <div class="recurso2">
-        <img src="./img/recurso2.png" alt="" />
+      <div id="slide-right-container">
+        <div class="slide-right"></div>
       </div>
+    </div>
+    <img src="./img/recurso2.png" style="width: 100%" alt="" />
 
-   <!--    <div class="descripcion">
-        <div class="sec1">
-          <video
-            width="400"
-            controls
-            poster="./img/Logo_100_curvas.png"
-            class="Video"
-          >
-            <source
-              src="https://www.amcham.org.mx/files/Envios/Comites21/Flyer/Envio1/2021_Fin_2.mp4"
-              type="video/mp4"
-            />
-            <source src="mov_bbb.ogg" type="video/ogg" />
-            Your browser does not support HTML5 video.
-          </video>
-        </div>
-        <div class="sec2">
-          <h2>Dashboard de Comercio</h2>
-          <p>
-            Descripción: Consulta la información más actualizada del comercio
-            bilateral México-Estados Unidos
-          </p>
-          <br /><br />
-          <a
-            class="button"
-            href=" https://amchammexico.infogram.com/us-mexico-trade-dashboard_esp-1h8n6mme5xnm6xo"
-          >
-            Ver más
-          </a>
-        </div>
-      </div> -->
-
+    <div class="container2">
       <div class="imageRes">
         <img src="./img/recurso.png" alt="Snow" style="width: 100%" />
 
         <div class="top-left">
           <video
             width="400"
-            controls
+            controls=""
             poster="./img/Logo_100_curvas.png"
             class="Video"
           >
@@ -379,33 +589,21 @@
             Descripción: Consulta la información más actualizada del comercio
             bilateral México-Estados Unidos
           </p>
-          <br /><br />
+          <br />
           <a
             class="button"
-            href=" https://amchammexico.infogram.com/us-mexico-trade-dashboard_esp-1h8n6mme5xnm6xo"
+            href="https://www.amcham.org.mx/es/about-us/executive-summary"
           >
             Ver más
           </a>
         </div>
       </div>
     </div>
-
-    <!--   <div class="descripcion">
-      <div class="sec1">
-        Desde su fundación, AmCham promueve el libre comercio , la transparencia
-        y las mejores prácticas dentro y fuera del sector empresarial, ayudando
-        a sus miembros a mejorar y hacer crecer sus negocios , al tiempo que
-        mantiene una voz proactiva que ayuda a facilitar las relaciones
-        comerciales entre México y los Estados Unidos .
-      </div>
-      <div class="sec2">
-        <img src="./img/website (5).png" alt="" />
-      </div>
-    </div> -->
-
-    <div class="footer">
+    <footer>
       <img src="./img/footer.png" alt="" />
-    </div>
-    <script type="text/javascript" src="home.js"></script>
+    </footer>
+
+    <script src="./HeaderScripts.js"></script>
+    <script src="./home.js"></script>
   </body>
 </html>
