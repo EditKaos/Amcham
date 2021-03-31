@@ -59,8 +59,8 @@
   width: 150px;
 }
 .slider .slide img {
-  height: 50px;
-  width: 150px;
+ 
+  width: 80%;
 }
 footer {
   width: 100%;
@@ -72,5 +72,9 @@ footer img {
   .slider {
     margin: 0px 1%;
     width: 100%;
+  }
+  .slider .slide img {
+ 
+    width: 50%;
   }
 }

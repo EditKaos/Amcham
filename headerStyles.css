@@ -11,8 +11,6 @@
   --overlay: rgba(0, 0, 0, 0.5);
 }
 
-
-
 .page-header {
   border-radius: 40px;
   position: relative;
@@ -310,6 +308,7 @@
   }
 
   .page-header .sub-menu {
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
     border-radius: 10px;
     display: none;
     position: absolute;
